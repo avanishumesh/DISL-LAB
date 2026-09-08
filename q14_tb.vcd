@@ -1,0 +1,111 @@
+$date
+	Sat Sep 05 19:32:08 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module q14_tb $end
+$var wire 1 ! s3 $end
+$var wire 1 " s2 $end
+$var wire 1 # s1 $end
+$var wire 1 $ s0 $end
+$var wire 1 % cout $end
+$var reg 1 & a0 $end
+$var reg 1 ' a1 $end
+$var reg 1 ( a2 $end
+$var reg 1 ) a3 $end
+$var reg 1 * b0 $end
+$var reg 1 + b1 $end
+$var reg 1 , b2 $end
+$var reg 1 - b3 $end
+$var reg 1 . cin $end
+$scope module q $end
+$var wire 1 & a0 $end
+$var wire 1 ' a1 $end
+$var wire 1 ( a2 $end
+$var wire 1 ) a3 $end
+$var wire 1 * b0 $end
+$var wire 1 + b1 $end
+$var wire 1 , b2 $end
+$var wire 1 - b3 $end
+$var wire 1 . cin $end
+$var wire 1 ! s3 $end
+$var wire 1 " s2 $end
+$var wire 1 # s1 $end
+$var wire 1 $ s0 $end
+$var wire 1 % cout $end
+$var wire 1 / c2 $end
+$var wire 1 0 c1 $end
+$var wire 1 1 c0 $end
+$scope module stage0 $end
+$var wire 1 & a $end
+$var wire 1 2 b $end
+$var wire 1 . cin $end
+$var wire 1 1 cout $end
+$var wire 1 $ s $end
+$upscope $end
+$scope module stage1 $end
+$var wire 1 ' a $end
+$var wire 1 3 b $end
+$var wire 1 1 cin $end
+$var wire 1 0 cout $end
+$var wire 1 # s $end
+$upscope $end
+$scope module stage2 $end
+$var wire 1 ( a $end
+$var wire 1 4 b $end
+$var wire 1 0 cin $end
+$var wire 1 / cout $end
+$var wire 1 " s $end
+$upscope $end
+$scope module stage3 $end
+$var wire 1 ) a $end
+$var wire 1 5 b $end
+$var wire 1 / cin $end
+$var wire 1 % cout $end
+$var wire 1 ! s $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+05
+14
+13
+02
+01
+10
+1/
+0.
+0-
+1,
+1+
+0*
+1)
+0(
+1'
+0&
+1%
+0$
+0#
+0"
+0!
+$end
+#20
+10
+11
+0#
+0/
+1"
+0!
+12
+03
+04
+15
+0$
+1.
+#40

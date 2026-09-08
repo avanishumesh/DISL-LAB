@@ -1,0 +1,66 @@
+$date
+	Sun Sep 06 18:51:28 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module q22_tb $end
+$var wire 16 ! y [15:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 1 # en $end
+$scope module q $end
+$var wire 4 $ a [3:0] $end
+$var wire 1 # en $end
+$var wire 1 % en1 $end
+$var wire 1 & en2 $end
+$var wire 16 ' y [15:0] $end
+$scope module stage0 $end
+$var wire 3 ( a [2:0] $end
+$var wire 1 % en $end
+$var reg 8 ) y [7:0] $end
+$var integer 32 * i [31:0] $end
+$upscope $end
+$scope module stage1 $end
+$var wire 3 + a [2:0] $end
+$var wire 1 & en $end
+$var reg 8 , y [7:0] $end
+$var integer 32 - i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000 -
+b1 ,
+b0 +
+bx *
+b0 )
+b0 (
+b100000000 '
+1&
+0%
+b1000 $
+1#
+b1000 "
+b100000000 !
+$end
+#20
+b1000 -
+b1000000000000 !
+b1000000000000 '
+b10000 ,
+b100 (
+b100 +
+b1100 "
+b1100 $
+#40
+b0 !
+b0 '
+b0 ,
+0&
+0#
+#60

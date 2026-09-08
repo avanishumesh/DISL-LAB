@@ -1,0 +1,47 @@
+$date
+	Sun Sep 06 12:35:55 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module q17_tb $end
+$var wire 1 ! E $end
+$var wire 1 " Al $end
+$var wire 1 # Ag $end
+$var reg 4 $ A [3:0] $end
+$var reg 4 % B [3:0] $end
+$scope module q $end
+$var wire 4 & A [3:0] $end
+$var wire 4 ' B [3:0] $end
+$var reg 1 # Ag $end
+$var reg 1 " Al $end
+$var reg 1 ! E $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000 '
+b1100 &
+b1000 %
+b1100 $
+1#
+0"
+0!
+$end
+#20
+1!
+0#
+b1100 %
+b1100 '
+#40
+1"
+0!
+b1000 %
+b1000 '
+b100 $
+b100 &
+#60

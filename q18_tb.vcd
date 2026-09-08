@@ -1,0 +1,76 @@
+$date
+	Sun Sep 06 13:22:21 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module q18_tb $end
+$var wire 1 ! y $end
+$var reg 1 " s0 $end
+$var reg 1 # s1 $end
+$var reg 1 $ w0 $end
+$var reg 1 % w1 $end
+$var reg 1 & w2 $end
+$var reg 1 ' w3 $end
+$scope module q $end
+$var wire 1 " s0 $end
+$var wire 1 # s1 $end
+$var wire 1 $ w0 $end
+$var wire 1 % w1 $end
+$var wire 1 & w2 $end
+$var wire 1 ' w3 $end
+$var wire 1 ! y $end
+$var wire 1 ( x1 $end
+$var wire 1 ) x0 $end
+$scope module stage0 $end
+$var wire 1 " s $end
+$var wire 1 $ w0 $end
+$var wire 1 % w1 $end
+$var reg 1 ) y $end
+$upscope $end
+$scope module stage1 $end
+$var wire 1 " s $end
+$var wire 1 & w0 $end
+$var wire 1 ' w1 $end
+$var reg 1 ( y $end
+$upscope $end
+$scope module stage2 $end
+$var wire 1 # s $end
+$var wire 1 ) w0 $end
+$var wire 1 ( w1 $end
+$var reg 1 ! y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1)
+0(
+0'
+0&
+0%
+1$
+0#
+0"
+1!
+$end
+#20
+0$
+1%
+1"
+#40
+0)
+1(
+0%
+1&
+1#
+0"
+#60
+0&
+1'
+1"
+#80
