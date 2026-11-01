@@ -1,0 +1,100 @@
+$date
+	Sun Nov 01 16:44:22 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module q3lab10_tb $end
+$var wire 3 ! q [2:0] $end
+$var reg 1 " clk $end
+$var reg 1 # reset $end
+$scope module q10 $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var reg 3 $ q [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+1#
+0"
+bx !
+$end
+#10
+b0 !
+b0 $
+1"
+#20
+0"
+0#
+#30
+b1 !
+b1 $
+1"
+#40
+0"
+#50
+b11 !
+b11 $
+1"
+#60
+0"
+#70
+b101 !
+b101 $
+1"
+#80
+0"
+#90
+b111 !
+b111 $
+1"
+#100
+0"
+#110
+b0 !
+b0 $
+1"
+#120
+0"
+#130
+b1 !
+b1 $
+1"
+#140
+0"
+#150
+b11 !
+b11 $
+1"
+#160
+0"
+#170
+b101 !
+b101 $
+1"
+#180
+0"
+#190
+b111 !
+b111 $
+1"
+#200
+0"
+#210
+b0 !
+b0 $
+1"
+#220
+0"
+#230
+b1 !
+b1 $
+1"
+#240
+0"
